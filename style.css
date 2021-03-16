@@ -130,7 +130,16 @@ html, div, img {
     height: 130px;
     z-index: -1;
 }
-  
+@media screen and (max-width: 600px) {
+.headertext { 
+    left: 15%;
+  }
+  .headerbox {
+    left:-40px;
+  }
+}
+
+
 .colorbox {
       position: absolute;
       top: 5px;
@@ -334,12 +343,5 @@ html, div, img {
     }
     .column {
       padding: 20px 50px;
-    }
-    .headertext { 
-      left: 15%;
-    }
-    .headerbox {
-      left:-40px;
-    }
-      
+    }      
 }
