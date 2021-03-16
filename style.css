@@ -335,4 +335,11 @@ html, div, img {
     .column {
       padding: 20px 50px;
     }
+    .headertext { 
+      left: 15%;
+    }
+    .headerbox {
+      left:-40px;
+    }
+      
 }
