@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Roboto.ttf");
+}
   
 body {
     font-family: "Roboto", sans-serif;
@@ -11,7 +16,7 @@ body {
 h1 {
     font-family: "Roboto", sans-serif;
     color:#b84196;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 24px;
     margin:30px 0px;
     text-transform: uppercase;
@@ -19,7 +24,7 @@ h1 {
   
 h2 {
     font-family: "Roboto", sans-serif;
-    font-weight: lighter;
+    font-weight: 100;
     font-size: 25pt;
 }
   
@@ -294,11 +299,11 @@ html, div, img {
 /* Change color on hover topnav */
 .topnav a:hover {
     color: #53c2bf;
-    font-weight: bold;
+    font-weight: 900;
 }
     
 .topnav a.active {
-    font-weight: bold;
+    font-weight: 900;
     text-decoration: underline;
     text-decoration-color: #53c2bf;
 }
